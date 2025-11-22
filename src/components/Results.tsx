@@ -30,13 +30,11 @@ const stats = [
 
 const Results = () => {
   return (
-    <section className="py-20 bg-primary text-primary-foreground relative overflow-hidden">
-      {/* Subtle background pattern */}
+    <section className="py-20 bg-gradient-hero text-primary-foreground relative overflow-hidden">
+      {/* Animated background elements */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute inset-0" style={{
-          backgroundImage: "radial-gradient(circle, currentColor 1px, transparent 1px)",
-          backgroundSize: "30px 30px"
-        }} />
+        <div className="absolute top-0 left-1/4 w-96 h-96 bg-white rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-white rounded-full blur-3xl animate-pulse" style={{ animationDelay: "1.5s" }}></div>
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
