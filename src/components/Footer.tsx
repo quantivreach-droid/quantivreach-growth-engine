@@ -48,7 +48,7 @@ const Footer = () => {
                 <Twitter className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="mailto:asad@quantivreach.com"
                 className="w-10 h-10 bg-primary-foreground/10 hover:bg-primary-foreground/20 rounded-lg flex items-center justify-center transition-colors"
                 aria-label="Email"
               >
