@@ -32,7 +32,9 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Connect With Us</h4>
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://www.linkedin.com/company/quantiv-reach/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 bg-primary-foreground/10 hover:bg-primary-foreground/20 rounded-lg flex items-center justify-center transition-colors"
                 aria-label="LinkedIn"
               >
