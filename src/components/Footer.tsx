@@ -4,8 +4,13 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-primary text-primary-foreground py-12">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <footer className="bg-gradient-hero text-primary-foreground py-12 relative overflow-hidden">
+      {/* Background decoration */}
+      <div className="absolute inset-0 opacity-10">
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
+      </div>
+      
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
             <h3 className="text-2xl font-bold mb-4">QuantivReach</h3>

@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import logo from "@/assets/quantivreach-logo.jpg";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,8 +18,9 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border shadow-sm">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">
+          <div className="flex-shrink-0 flex items-center gap-3">
+            <img src={logo} alt="QuantivReach Logo" className="h-10 w-10 rounded-lg" />
+            <h1 className="text-2xl font-bold text-foreground">
               QuantivReach
             </h1>
           </div>
